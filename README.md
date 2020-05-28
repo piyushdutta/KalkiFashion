@@ -5,7 +5,7 @@ To do
 1> Create a go routine for triggering the external python script. 
  1.a> Check for the file length of the csv is greater than 1.
  1.b> The wrtie is completed only then resolve the go thread.
- 1.c> How to make the date in query.json set to be today's date in yyyy-mm-dd format.
+ 1.c> Hardcode the when section in the python script (From and to date should be set to today).
 
 2> Query for SKU id's
  2.a> Initial query for fetching the SKU id is done.
