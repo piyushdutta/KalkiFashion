@@ -2,10 +2,10 @@
 
 To do
 (External Python script to fetch the events data)
-1> Create a go routine for triggering the external python script. 
- 1.a> Check for the file length of the csv is greater than 1.
- 1.b> The wrtie is completed only then resolve the go thread.
- 1.c> Hardcode the when section in the python script (From and to date should be set to today).
+1> Create a go routine for triggering the external python script. (Not creating a go routine now using CombinedOutput to provide the data synchronsly)
+ 1.a> Check for the file length of the csv is greater than 1. (Done)
+ 1.b> The wrtie is completed only then resolve the go thread. (Not handling this on a multi thread script. Will take it up on the next update)
+ 1.c> Hardcode the when section in the python script (From and to date should be set to today).(Doing)
 
 2> Query for SKU id's
  2.a> Initial query for fetching the SKU id is done.
